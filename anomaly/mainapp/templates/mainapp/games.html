@@ -1,0 +1,12 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+
+{% block header %}
+<div class="slider">
+    {% include 'mainapp/include/inc_header_menu.html' %}
+
+    <div class="games">
+        <a href="/game_anomaly/start">Игра "Аномалия"</a>
+    </div>
+</div>
+{% endblock %}

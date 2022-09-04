@@ -1,0 +1,55 @@
+.doctor {
+  background-image: url(game_anomaly/assets/persons/doctor.png);
+  background-size: cover;
+  width:70px;
+  height:70px;
+}
+.stat {
+  border: 1px solid #9c9c9c;
+  border-collapse: collapse;
+}
+
+.stat-title {
+  font-size: 12px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 10px;
+  text-align: center;
+}
+
+.counter {
+  text-align: center;
+}
+
+.equipment-title {
+  font-size: 12px;
+  text-align: center;
+}
+
+.equipment-value {
+  font-size: 10px;
+  text-align: center;
+}
+
+.inventory-name {
+  text-align: center;
+}
+
+.inventory {
+  background-color: #C1C1C1;
+  height: 50px;
+}
+
+.location {
+  text-align: center;
+  font-size: 12px;
+  height: 90px;
+  border: 2px solid #9c9c9c;
+  border-collapse: collapse;
+}
+
+.location-title {
+  background-color: #C1C1C1;
+}

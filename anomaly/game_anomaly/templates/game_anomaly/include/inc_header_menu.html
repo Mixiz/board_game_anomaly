@@ -1,0 +1,7 @@
+<!-- Меню навигации в хедере -->
+<div class="header clearfix">
+    <a href="/" class="logo"></a>
+    <a href="{% if request.user.is_authenticated %}/auth/logout{% else %}/auth/login{% endif %}" class="auth">
+        {% if request.user.is_authenticated %}Выйти{% else %}Войти{% endif %}
+    </a>
+</div>
