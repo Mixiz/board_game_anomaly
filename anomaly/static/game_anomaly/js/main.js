@@ -20,6 +20,8 @@ function setup() {
     init_fields();
     // подготовка игроков
     setup_players();
+    // подготовка объектов на поле
+    init_game_objects();
     // подготовка к старту
     set_start();
 }

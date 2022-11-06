@@ -5,7 +5,8 @@
 <div class="slider">
     {% include 'game_anomaly/include/inc_header_menu.html' %}
 
-    <form action="./../game">
+    <!--<form action="./../game">-->
+    <form action="{% url 'game_anomaly:game' %}">
         <table><tr><td>Количество игроков <td><input name="players" value="1">
             <tr><td>Режим игры <td><select name="game_type"><option>Hot seat</option><option disabled>Сетевая игра</option></select>
         </table>

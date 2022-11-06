@@ -22,6 +22,68 @@ html, body {
     background-color: #f0f0f0;
 }
 
+#win-window {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#win-content {
+  border-radius: 15px;
+  border-radius: 15px;
+  margin: 10% auto;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  background: #ddd;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.win-header {
+  background: #428bca;
+  font-size: 18px;
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+}
+
+#win-table {
+  padding: 10px 20px;
+  background: #ddd;
+}
+
+#win-table td {
+  padding: 10px;
+}
+
+#win-table tr:first-child {
+  background: #bbb;
+}
+
+#win-table tr:nth-child(2n) {
+  background: #ccc;
+}
+
+.win-button {
+  width: 20%;
+  margin: 5% auto;
+  background: #428bca;
+  padding: 1em 2em;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
 .clr {
 	height: 100px; /* 384 old */
 }
