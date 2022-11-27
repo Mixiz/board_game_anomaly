@@ -1,9 +1,26 @@
-.doctor {
-  background-image: url(game_anomaly/assets/persons/doctor.png);
+.player-icon {
   background-size: cover;
   width:70px;
   height:70px;
+  display: inline-block;
 }
+
+.doctor {
+  background-image: url(game_anomaly/assets/persons/doctor.png);
+}
+
+.soldier {
+  background-image: url(game_anomaly/assets/persons/soldier.png);
+}
+
+.scientist {
+  background-image: url(game_anomaly/assets/persons/scientist.png);
+}
+
+.merchant {
+  background-image: url(game_anomaly/assets/persons/merchant.png);
+}
+
 .stat {
   border: 1px solid #9c9c9c;
   border-collapse: collapse;
@@ -48,8 +65,30 @@
   height: 90px;
   border: 2px solid #9c9c9c;
   border-collapse: collapse;
+  position: relative;
 }
 
 .location-title {
   background-color: #C1C1C1;
+}
+
+.player {
+  position: absolute;
+  display: inline;
+}
+
+.dot {
+  height: 25px;
+  width: 25px !important;
+  /*background-color: #bbb;*/
+  border-radius: 50%;
+  display: block;
+}
+
+.red-dot {
+  height: 10px;
+  width: 10px !important;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
 }
